@@ -2,33 +2,52 @@ import 'package:tf_auth_base/tf_auth_base.dart';
 
 class TfAuthPostgres extends TfAuth {
   @override
-  Future<void> loginWithEmailPassword(
-      {required String email, required String password}) {
-    // Postgres specific implementation here
-    return Future<void>.value();
-  }
-
-  @override
-  Future<void> loginWithEmailLink({required String email}) {
-    // Postgres specific implementation here
-    return Future<void>.value();
+  Future<void> forgotPasswordForEmail({required String email}) {
+    // TODO: implement forgotPasswordForEmail
+    throw UnimplementedError();
   }
 
   @override
   Future<void> loginWithApple() {
-    // Postgres specific implementation here
-    return Future<void>.value();
+    // TODO: implement loginWithApple
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<void> loginWithEmailLink({required String email}) {
+    // TODO: implement loginWithEmailLink
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<void> loginWithEmailPassword(
+      {required String email, required String password}) {
+    // TODO: implement loginWithEmailPassword
+    throw UnimplementedError();
   }
 
   @override
   Future<void> loginWithFacebook() {
-    // Postgres specific implementation here
-    return Future<void>.value();
+    // TODO: implement loginWithFacebook
+    throw UnimplementedError();
   }
 
   @override
   Future<void> loginWithGoogle() {
-    // Postgres specific implementation here
-    return Future<void>.value();
+    // TODO: implement loginWithGoogle
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<void> logout() {
+    // TODO: implement logout
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<void> signupWithEmailPassword(
+      {required String email, required String password}) {
+    // TODO: implement signupWithEmailPassword
+    throw UnimplementedError();
   }
 }
